@@ -5,17 +5,18 @@
 
     <title>Assignment 2 Website</title>
 
-    <link rel="stylesheet" href="css/style.css">
+    
     <link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">    
     <link rel="stylesheet" href="css/960_12_col.css">
+    <link rel="stylesheet" href="css/style.css">
 
   </head>
   <body>
 
-    <div class="navbar">
+    <div class="navbar fullWidth">
       <h1 class="move-left">BookWorm</h1>
       <ul>
         <li class="move-left nav-items"><a href="#">Genres</a></li>
@@ -25,7 +26,7 @@
       </ul>
     </div>  
 
-    <div class="heroUnit">
+    <div class="heroUnit fullWidth textCenter">
       <blockquote>
       <mark>Some books you read. Some books you enjoy.<br>But some books just swallow you up, heart and soul."</mark><br><div class="move-right"><mark>-Anonymous</mark></div></div>
       </blockquote>
@@ -35,46 +36,46 @@
     
     <div class="container_12" id="three-column">
       <div class="best-seller">
-        <h2>Checkout the bestsellers!</h2>
+        <h2 class="textCenter">Checkout the bestsellers!</h2>
       </div>
       <div class="grid_4">
         <img src="img/FirstToDie.jpg" alt="First to Die">
-        <div class="nameAuthor"><div class="sizify">"First to Die"</div> by James Patterson</div>
-        <div class="desc">
+        <div class="nameAuthor textCenter"><div class="sizify">"First to Die"</div> by James Patterson</div>
+        <div class="desc textCenter">
           <div class="about">What this book is about:</div> A 13-year-old girl searches for her mother, who disappeared after a terrible accident. She gets some help from a psychic and a detective. Together, they find out that sometimes asking questions gets them answers they didn’t want to know…
         </div>
       </div>
       <div class="grid_4">
         <img src="img/Three.jpg" alt="Three">
-        <div class="nameAuthor"><div class="sizify">"Three"</div> by Ted Dekker</div>
-        <div class="desc">
+        <div class="nameAuthor textCenter"><div class="sizify">"Three"</div> by Ted Dekker</div>
+        <div class="desc textCenter">
           <div class="about">What this book is about:</div> Four women join together to catch a killer who’s murdering people in terrible ways. This is the first in a series, so if you like this one, you can continue reading about this team of women.
         </div>
       </div>
       <div class="grid_4">
         <img src="img/LeavingTime.jpg" alt="Leaving Time">
-        <div class="nameAuthor"><div class="sizify">"Leaving Time"</div> by Jodi Picoult</div>
-        <div class="desc">
+        <div class="nameAuthor textCenter"><div class="sizify">"Leaving Time"</div> by Jodi Picoult</div>
+        <div class="desc textCenter">
           <div class="about">What this book is about:</div> Imagine that you’re driving your car when a phone rings. The person on the line says you have three minutes to confess your sin to the world, or your car will explode. What do you do? 
         </div>
       </div>
     </div>
 
     <div class="container_12" id="two-column">
-    <div class="grid_6">
-      <img src="img/genre.jpg" alt="Genres">
+    <div class="grid_6 textCenter">
+      <img src="img/genre.jpg" alt="Genres" class="fullWidth">
     </div>
-    <div class="grid_6">
+    <div class="grid_6 textCenter">
       <div class="row">
-        <span class="fas fa-utensils"></span><br>
+        <span class="fas fa-utensils"></span>
         Recipes
       </div>
       <div class="row">
-        <span class="fas fa-theater-masks"></span><br>
+        <span class="fas fa-theater-masks"></span>
         Plays
       </div>
       <div class="row">
-        <span class="fas fa-paint-brush"></span><br>
+        <span class="fas fa-paint-brush"></span>
         Art
       </div>
     </div>
@@ -82,12 +83,12 @@
   </div>
 
   
-  <footer>
+  <footer class="fullWidth">
     <h1 class="move-left">BookWorm</h1>
-    <div class="subscribe">
+    <div class="subscribe move-left">
       <div class="mailNotif">Subscribe to our Mail Notifications to receive the latest updates!</div>
       <input type="text" placeholder="Enter your Email...">
-      <input type="button" value="Subscribe">
+      <input type="button" value="Go">
     </div>
     <div class="follow">
       <div class="social"><span class="fab fa-facebook-square"></span></div>
