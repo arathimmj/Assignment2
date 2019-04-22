@@ -1,2 +1,12 @@
-This is my project.
-It is a HTML and CSS based responsive website.
+# Assignment on HTML and CSS
+
+This is an HTML and CSS based website made as part of an assignment. This is a responsive website called BookWorm. Book readers will find this site interesting.
+
+## Authors
+
+* **Arathi**
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+
