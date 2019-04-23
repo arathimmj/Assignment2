@@ -6,7 +6,7 @@ This is an HTML and CSS based website made as part of an assignment. This is a r
 
 * **Arathi**
 
-## License
+## To see the website
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+The site is published at the following link : https://arathimmj.github.io/Assignment2/
 
