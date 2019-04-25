@@ -175,11 +175,12 @@ body {
 		height:1000px;
 	}
 	.mailNotif {
-		font-size: 13px;
+		font-size: 15px;
 		padding-top: 20px;
 	}
 	.social {
-		font-size: 30px;
+		font-size: 25px;
+		letter-spacing: 2px;
 	}
 	input{
 		height: 10px;
@@ -194,16 +195,72 @@ body {
 }
 @media (max-width: 1010px) {
 	.heroUnit {
+		font-size: 75PX;
 		height:1000px;
 	}
+	.navbar{
+		font-size: 40px;
+	}
+	.navbar a{
+		font-size: 30px;
+	}
+	h1{
+		font-size: 60px;
+		padding: 0 0 0 20px;
+		margin: 20px 0;
+	}
+	ul{
+		margin:20px 0;
+	}
+	.nav-items{
+		padding: 20px 10px;
+	}
+	.hide {
+		display: none;
+	}
 	.container_12 {
-		width:500px;
+		width:700px;
+	}
+	h2 {
+		font-size: 70px;
 	}
 	.grid_4 {
 		display: block;
-		padding:0 70px;
+		padding:30px 150px;
+	}
+	.grid_4 img {
+		width: 392px;
+		height: 600px;
+	}
+	.nameAuthor {
+		padding: 10px 0;
+		font-size: 40px;
+		width: 420px;
+	}
+	.sizify {
+		font-size: 50px;
+	}
+	.desc {
+		width: 420px;
+		color: #595959;
+		font-size: 38px;
+	}
+	.about {
+		font-size: 42px;
 	}
 	.grid_6 {
 		display: block;
+		padding: 0 150px;
+	}
+	footer{
+		height: 130px;
+	}
+	.mailNotif, input{
+		display: none;
+	}
+	.social {
+		margin: 20px 0;
+		font-size: 40px;
+		letter-spacing: 2px;
 	}
 }
